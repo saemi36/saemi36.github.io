@@ -1,0 +1,227 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Mincho ProN";
+}
+
+a {
+  text-decoration: none;
+}
+.header-left {
+  color:#2F4F4F;
+}
+
+.container {
+  width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+  color:#2F4F4F;
+}
+
+.top-wrapper {
+  padding: 250px 0 150px 0;
+  background-image: url(https://i.etsystatic.com/6902543/r/il/a95cbe/1244318625/il_1140xN.1244318625_ke0n.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 30px;
+  letter-spacing: 5px;
+  padding:20px 0 60px 0;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+}
+
+.btn-wrapper {
+  margin:auto;
+}
+
+.btn-border-bottom {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.25em 0;
+  text-decoration: none;
+  color: #2F4F4F;
+  padding:0 25px;
+}
+
+.btn-border-bottom:before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 1px;
+  top:100%;
+  left: 0;
+  border-radius: 3px;
+  background:#2F4F4F;
+  transition: .2s;
+}
+
+.btn-border-bottom:hover:before {
+  top: -webkit-calc(100% - 3px);
+  top: calc(100% - 3px);
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+  color：#2E8B57；
+}
+
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(189,183,107,0.6);
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  display: inline-block;
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+  display: inline-block;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  display: inline-block;
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight:nomal;
+}
+
+
+.lesson {
+  float: left;
+  width: 25%;
+  font-weight: 900;
+
+}
+
+.lesson-icon {
+  position: absolute;
+}
+
+
+.lesson-icon p {
+  position: absolute;
+  top: 1px;
+  width: 100%;
+}
+
+.lesson-icon img {
+  width: 250px;
+  height: 340px;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #f7f7f7;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+.btn-wrappers {
+  color:#006400;
+}
+
+.Instagram {
+  background-color: #B8860B;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #B8860B;
+}
+
+.LINE {
+  background-color: #B8860B;
+  margin-left: 10px;
+}
+
+.btn {
+  padding: 3px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.5;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+}
